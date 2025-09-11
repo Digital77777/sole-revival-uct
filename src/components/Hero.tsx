@@ -2,6 +2,13 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-cleaning.jpg";
 
 const Hero = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative overflow-hidden bg-gradient-hero min-h-screen flex items-center">
       <div className="absolute inset-0 bg-black/20"></div>
@@ -17,10 +24,20 @@ const Hero = () => {
               UCT's premium sneaker cleaning service. We bring your favorite shoes back to life with professional care and attention to detail.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90 shadow-elevation text-lg px-8 py-6">
+              <Button 
+                size="lg" 
+                variant="secondary" 
+                className="bg-white text-primary hover:bg-white/90 shadow-elevation text-lg px-8 py-6"
+                onClick={() => scrollToSection('contact')}
+              >
                 Book Now
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6"
+                onClick={() => scrollToSection('services')}
+              >
                 View Services
               </Button>
             </div>

@@ -5,6 +5,13 @@ import { useState } from "react";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const navItems = [
     { href: "#services", label: "Services" },
     { href: "#results", label: "Results" },
@@ -37,7 +44,10 @@ const Header = () => {
           </div>
 
           <div className="hidden md:block">
-            <Button className="bg-gradient-primary shadow-glow">
+            <Button 
+              className="bg-gradient-primary shadow-glow"
+              onClick={() => scrollToSection('contact')}
+            >
               Book Now
             </Button>
           </div>
@@ -69,7 +79,10 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button className="bg-gradient-primary shadow-glow mt-4">
+              <Button 
+                className="bg-gradient-primary shadow-glow mt-4"
+                onClick={() => scrollToSection('contact')}
+              >
                 Book Now
               </Button>
             </div>
