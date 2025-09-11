@@ -33,7 +33,7 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-                Why Choose <span className="text-primary">Fresh Kicks?</span>
+                Why Choose <span className="text-primary">SipSips Fresh Kicks?</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8">
                 Started by a UCT student who was tired of dirty sneakers but couldn't afford new ones every semester. 

@@ -63,7 +63,7 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Ready for <span className="text-primary">Fresh Kicks?</span>
+            Ready for <span className="text-primary">SipSips Fresh Kicks?</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Book your sneaker cleaning service today. Quick, easy, and guaranteed results.
@@ -165,7 +165,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Follow Us</h3>
-                  <p className="text-muted-foreground">@uctfreshkicks<br />See daily transformations</p>
+                  <p className="text-muted-foreground">@sipsipsfreshkicks<br />See daily transformations</p>
                 </div>
               </div>
             </Card>

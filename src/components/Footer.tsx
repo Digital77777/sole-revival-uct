@@ -8,9 +8,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center justify-center md:justify-start space-x-2 mb-4">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">FK</span>
+                <span className="text-white font-bold text-lg">SFK</span>
               </div>
-              <span className="text-xl font-bold">Fresh Kicks</span>
+              <span className="text-xl font-bold">SipSips Fresh Kicks</span>
             </div>
             <p className="text-white/70 mb-4">
               UCT's trusted sneaker cleaning service. Keeping students fresh since 2024.
@@ -41,7 +41,7 @@ const Footer = () => {
               <li>UCT Campus Area</li>
               <li>Rondebosch, Cape Town</li>
               <li>WhatsApp: +27 XX XXX XXXX</li>
-              <li>@uctfreshkicks</li>
+              <li>@sipsipsfreshkicks</li>
             </ul>
           </div>
         </div>
