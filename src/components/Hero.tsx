@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left animate-fade-in">
             <h1 className="text-5xl lg:text-7xl font-black text-white mb-6 leading-tight">
-              SipSips Fresh Kicks,
+              Usips,
               <br />
               <span className="text-accent">Every Day</span>
             </h1>
